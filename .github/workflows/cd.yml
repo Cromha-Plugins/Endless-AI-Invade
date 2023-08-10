@@ -37,7 +37,7 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: data/ images/ about.txt icon.png README.md LICENSE
-          dest: builds/CEndless-AI-Invade.tar.gz
+          dest: builds/Endless-AI-Invade.tar.gz
       - name: Set environment variables
         run: |
           echo "GITHUB_USER=$( echo ${{ github.repository }} | cut -d/ -f1 )" >> $GITHUB_ENV
