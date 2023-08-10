@@ -13,7 +13,6 @@ Learn more [about Endless Sky][esweb].
   <summary>Summary</summary>
 
 * [About plugin](#about-plugin)
-    * [This plugin](#this-plugin)
 * [Contributing](#contributing)
 * [Development status](#development-status)
 * [System Requirements](#system-requirements)
