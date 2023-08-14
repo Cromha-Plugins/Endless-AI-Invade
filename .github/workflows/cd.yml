@@ -30,7 +30,7 @@ jobs:
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
       - name: Create Zip
         run: |
-          zip -r builds/Endless-AI-Invade.zip data/ images/ plugins.txt icon.png LICENSE README.md
+          zip -r builds/Endless-AI-Invade.zip data/ images/ plugin.txt icon.png LICENSE README.md
       - name: Create Tar
         run: |
           tar c -f builds/Endless-AI-Invade.tar.gz data/ images/ icon.png LICENSE plugin.txt README.md
