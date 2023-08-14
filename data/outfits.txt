@@ -1,4 +1,4 @@
-outfit "Kah' Meca-Orgnaical Node"
+outfit "Kah' Mehca-Organical Node"
   cost 0
   category Systems
   thumbnail "outfit/reasoning node"
