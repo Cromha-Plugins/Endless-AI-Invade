@@ -68,7 +68,7 @@ You can use the following command if you're used to command line.
 git clone git@github.com:OcelotWalrus/Endless-AI-Invade.git
 ```
 
- If not, you can download the [continuous build](https://github.com/OcelotWalrus/git@github.com:OcelotWalrus/Endless-AI-Invade.git/releases/tag/9.9.9-continuous) and put the folder into your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
+ If not, you can download the [continuous build](https://github.com/OcelotWalrus/Endless-AI-Invade/releases/tag/9.9.9-continuous) and put the folder into your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
 
 ## Keeping the plugin updated
 If you're not familiar with git, you just have to run that command into the installed plugin.
