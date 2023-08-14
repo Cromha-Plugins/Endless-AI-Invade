@@ -30,9 +30,11 @@ jobs:
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
       - name: Create Zip
         run: |
+          mkdir builds
           zip -r builds/Endless-AI-Invade.zip data/ images/ plugin.txt icon.png LICENSE README.md
       - name: Create Tar
         run: |
+          mkdir builds
           tar c -f builds/Endless-AI-Invade.tar.gz data/ images/ icon.png LICENSE plugin.txt README.md
       - name: Set environment variables
         run: |
